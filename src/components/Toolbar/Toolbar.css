@@ -42,6 +42,11 @@
   align-items: center;
   gap: 4px;
 }
+.search-button.active div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .search-button.active svg {
   fill: white;
 }
