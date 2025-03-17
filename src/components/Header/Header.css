@@ -1,0 +1,79 @@
+/* Header Container */
+.header {
+  background-color: #183d33;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.header-logo {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Navigation Menu */
+.nav-menu {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-item {
+  text-decoration: none;
+  font-size: 14px;
+  color: #aebbb8;
+
+  /* dWeb/Body B1 */
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.active {
+  border-bottom: 1px solid #00d373;
+}
+
+.nav-item:hover {
+  color: white;
+}
+
+/* Right Actions (Chat + Avatar) */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Chat Button */
+.chat-button {
+  background: none;
+  color: #fcfcfc;
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.chat-button:hover {
+  text-decoration: underline;
+}
+
+/* User Avatar */
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f7f5;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}

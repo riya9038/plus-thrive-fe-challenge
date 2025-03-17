@@ -1,0 +1,8 @@
+.c-container-content-width {
+  width: 100%;
+  max-width: calc(92rem + 3.2rem);
+  margin: 0 auto;
+}
+* {
+  font-family: sans-serif;
+}

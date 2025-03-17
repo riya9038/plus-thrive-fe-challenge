@@ -1,0 +1,31 @@
+/* Tab Panel Container */
+.tab-panel {
+  width: 50%;
+  margin: auto;
+}
+
+/* Tab Buttons */
+.tab-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.tab-button {
+  font-weight: 600;
+  font-size: 16px;
+  color: gray;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.tab-button.active {
+  color: black;
+  border-bottom: 2px solid #28a745; /* Green underline for active tab */
+}
+
+/* Tab Content */
+.tab-content {
+  padding: 20px 0;
+}

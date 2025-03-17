@@ -1,0 +1,11 @@
+.transaction-group {
+  margin-bottom: 24px;
+}
+
+.transaction-date {
+  color: #111;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}

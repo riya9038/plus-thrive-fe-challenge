@@ -1,0 +1,119 @@
+.account-details-container {
+  background-color: #0b3e85;
+  width: 50%;
+  border-radius: 16px;
+  padding: 38px 48px;
+  margin: 20px auto;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-info {
+  flex: 1;
+  width: 50%;
+}
+
+.account-title {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  margin: 0;
+}
+
+.account-balance {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 33.6px */
+  margin: 0;
+}
+
+.account-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.account-meta-item {
+  color: var(--Tertiary-white, #fff);
+  text-align: center;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+  padding: 8px;
+  width: 100%;
+}
+.item-left {
+  background: rgba(255, 255, 255, 0.1);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.item-right {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0px 8px 8px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.account-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.action-group {
+  display: flex;
+  width: 200px;
+  padding: 7.5px 11px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+.action-button {
+  width: 200px;
+  color: #fff;
+  text-align: center;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  background: rgba(255, 255, 255, 0.1);
+  padding: 7.5px 11px;
+  border-radius: 8px;
+}
+
+.account-pagination {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  gap: 8px;
+  font-size: 10px;
+  padding: 0px 48px;
+}
+
+.pagination-button {
+  background: none;
+  border: none;
+  font-size: 8px;
+  cursor: pointer;
+  color: black;
+}
